@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2f86c9, #8a25cd);
+}
+
+header {
+    background-image: url('er_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    padding: 20px 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.consult-button, .read-more-button, .cont-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cont-button{
+    background-color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+li a:hover {
+    background-color: #bb0deb; 
+    color: yellow; 
+    font-size: 30px;
+    
+  }
+
+.search-box {
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    /*background-image: url("er_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color:rgb(192, 192, 245);
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.about-us {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-us p {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.services {
+   /* padding: 40px 20px;*/
+    text-align: center;
+    color:#e70d23;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+#one{
+    background-image: url('technical\ images\ for\ sample\ landing\ page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#two{
+    background-image: url('symbol\ of\ creative\ design.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#three{
+    background-image: url('retina\ ready\ symbol.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color:transparent;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

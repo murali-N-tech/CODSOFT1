@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="logos/1729864399004.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="#">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="projects.html">Projects</a>
+    </div>
+    <div class="box"></div>
+    <div class="header-text">
+        <p >web-developer</p>
+        <h1>Hi, I Am <span>Murali</span><br>from Eluru</h1>
+    </div>
+    <main>
+        <h2 class="about">About Me</h2>
+        <p class="text">Hello! I'm<span class="Name">Chinthada Murali Naga Raju</span>, a passionate and dedicated web developer with a knack for creating intuitive and visually appealing websites. With 1 years of experience in the field, I've honed my skills in front-end and back-end development, making me a versatile professional who can bring your vision to life. My journey into web development began with a fascination for the internet and its endless possibilities. Over the years, I've mastered various programming languages, frameworks, and tools, including HTML, CSS, JavaScript, React, Node.js, and more. My expertise lies in building responsive, user-friendly websites that deliver an exceptional user experience. What sets me apart is my commitment to staying up-to-date with the latest industry trends and technologies. I believe in continuous learning and regularly participate in workshops, webinars, and online courses to enhance my skills and knowledge. This dedication ensures that my clients receive modern, efficient, and cutting-edge solutions. When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or indulging in my love for photography and travel. I believe that a well-rounded life brings fresh perspectives and creativity to my work. Let's connect and create something amazing together!</p>
+        <a href="logos/resume (1).pdf" target="_blank"><button>Download CV</button></a>
+    </main>
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <label for="Web Development">Web Development</label>
+            <progress id="web Development" value="90" max="100">90%</progress>
+        </div>
+        <div class="skill">
+            <label for="Java">Java</label>
+            <progress id="Java" value="85" max="100">85%</progress>
+        </div>
+        <div class="skill">
+            <label for="Python">Python</label>
+            <progress id="Python" value="80" max="100">80%</progress>
+        </div>
+        <div class="skill">
+            <label for="Data Science">Data Science</label>
+            <progress id="Data Science" value="75" max="100">75%</progress>
+        </div>
+        <div class="skill">
+            <label for="Data Base Management System">Data Base Management System</label>
+            <progress id="Data Base Management System" value="70" max="100">70%</progress>
+        </div>
+    </section>
+    <div class="contact-map">
+        <section>
+            <div class="contact" id="contact">
+                <h2>Contact ME</h2>
+                <div class="form">
+                    <form action="contact.php" method="post">
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" name="Name">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" name="Email">
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="location">
+            <div class="location-container">
+                <h1>Locate Me</h1>
+                <h2>Bhimavaram, Andhra Pradesh</h2>
+                <p>Welcome to Bhimavaram, a vibrant town known for its cultural heritage and bustling markets.</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.9843177059943!2d81.52302751598197!3d16.540193588628332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35d2fb3ef2b331%3A0x3e6374038a7b7eea!2sBhimavaram%2C%20Andhra%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1617721089894!5m2!1sen!2sus" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <p>&copy; 2023 Chinthada Murali Naga Raju. All rights reserved.</p>
+          <div class="social-links">
+        <a href="https://www.facebook.com/share/15d86GPtJZ/" target="_blank"><i class="fa fa-facebook"></i>
+              <img src="logos/facebook2.jpg" width="40" height="40" style="border-radius: 20px;"></a>
+        <a href="https://x.com/Mr_Murali?t=D4vqvTeNL68D_VRo-U-jww&s=09" target="_blank"><i class="fa fa-twitter"></i>
+        <img src="logos/twiter.png" width="40px" height="40px"></a>
+        <a href= " https://www.linkedin.com/in/chinthada-murali-nagaraju-0746912b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"><i class="fa fa-linkedin"></i>
+        <img src="logos/linked.png" width="40" height="40"></a>
+        <a href="https://github.com/murali-N-tech" target="_blank"><i class="fa fa-github"></i>
+        <img src="logos/git.png" width="40" height="40" style="border-radius: 20px;"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.7.1.js"></script>
+    <script >window.jQuery|| document.write('<script src="js\jquery-3.7.1.js"><\/script>')</script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
